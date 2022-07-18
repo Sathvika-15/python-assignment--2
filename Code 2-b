@@ -1,0 +1,12 @@
+x=int(input("enter n:"))
+p=x
+if(x%2==0):
+  for i in range(x):
+    i=x
+    print(x)
+    x=x+2
+else:
+   for i in range(x):
+     i=x
+     print(" pebbles :",x)
+     x=x+2
