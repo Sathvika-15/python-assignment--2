@@ -1,0 +1,10 @@
+
+from array import*
+a1=array('i',[11,12,13,14,5])
+s=int(input("enter :"))
+for e in a1:
+  if(e==s):
+       print("element is found at position:",a1.index(e))
+       break
+else:
+	 print(" element not found")
